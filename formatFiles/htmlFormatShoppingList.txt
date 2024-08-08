@@ -1,0 +1,13 @@
+<html><head></head><body>
+<div class="container-fluid main-container">
+<div id="header">
+</div>
+<div id="title" class="section level2">
+<h2>Shopping List:</h2>
+</div>
+<div id="recipe" class="section level2">
+<ol style="list-style-type: disc">
+</ol>
+</div>
+</div>
+</body></html>
