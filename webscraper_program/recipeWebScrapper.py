@@ -139,7 +139,7 @@ htmlKeys = {"allrecipes": (allRecipe_ingredient, allRecipe_recipe),
             "bad_url": ""}
 
 # set up folder to house the scraped recipes
-wd = "/home/jvucelic/Documents/githubDocs/testingRepo/mealPlanner"
+wd = "mealPlanner"
 scrapedDir = os.path.join(wd, "scrapedRecipes")
 newDir = f'{scrapedDir}/{str(date.today()).split(" ")[0]}'
 if os.path.isdir(newDir):

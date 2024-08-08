@@ -220,9 +220,9 @@ def textToHTML(templateHTML, outputPath, recipeInfo):
 
 
 # Set up imports and directory stuff
-wd = "/home/jvucelic/Documents/githubDocs/testingRepo/mealPlanner"
+wd = "/mealPlanner"
 storageDir = wd+"/mealPlans"
-formatDir =  "/home/jvucelic/Documents/githubDocs/testingRepo/mealPlanner/formatFiles"
+formatDir =  "/mealPlanner/formatFiles"
 
 try:
     mealPlanLen = int(input("How many days do you want to plan for?\n")) + 1
